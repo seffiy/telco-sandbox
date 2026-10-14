@@ -1,0 +1,18 @@
+{
+  "name": "telco-sandbox",
+  "version": "0.1.0",
+  "description": "Mock telco BSS on TM Forum Open APIs with a deterministic rating engine and labeled synthetic data. Shared foundation for BillWise, PartnerPilot and RetainIQ.",
+  "type": "module",
+  "main": "src/app.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "generate": "node scripts/generate.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "private": true
+}
